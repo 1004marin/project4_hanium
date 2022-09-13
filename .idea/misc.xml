@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.135" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.135" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/drawable/menu_iine.xml" value="0.135" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_dialog_select_img.xml" value="0.25" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_launch.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_list.xml" value="0.1" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_list2.xml" value="0.5" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_log.xml" value="0.33" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_log2.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_open.xml" value="0.2625" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_open2.xml" value="0.2625" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_register_complete.xml" value="0.25" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/list.xml" value="0.33" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/log.xml" value="0.25" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/register_complete.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
