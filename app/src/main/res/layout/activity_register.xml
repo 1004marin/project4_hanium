@@ -139,34 +139,19 @@
         android:text="직원 사진" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="54dp"
-        android:layout_height="37dp"
-        android:text="첨부"
-        android:textSize="10sp"
-        app:backgroundTint="#CAC5C5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.691"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701"
-        tools:ignore="MissingConstraints" />
-
-    <Button
         android:id="@+id/main_btn"
         android:layout_width="54dp"
         android:layout_height="37dp"
         android:layout_marginTop="190dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginEnd="108dp"
         android:layout_marginBottom="206dp"
         android:text="첨붕"
         android:textSize="10sp"
         app:backgroundTint="#CAC5C5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -218,12 +203,12 @@
 
     <ImageView
         android:id="@+id/main_img"
-        android:layout_width="343dp"
-        android:layout_height="390dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="10dp"
+        android:layout_width="383dp"
+        android:layout_height="358dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

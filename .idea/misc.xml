@@ -6,16 +6,19 @@
         <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.135" />
         <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.135" />
         <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/drawable/menu_iine.xml" value="0.135" />
-        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_dialog_select_img.xml" value="0.25" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_dialog_select_img.xml" value="0.33" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_home.xml" value="0.2265625" />
         <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_launch.xml" value="0.24635416666666668" />
-        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_list.xml" value="0.1" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_list.xml" value="0.5" />
         <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_list2.xml" value="0.5" />
-        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_log.xml" value="0.33" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_log.xml" value="0.67" />
         <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_log2.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_login.xml" value="0.2109375" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_login_data.xml" value="0.265625" />
         <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_open.xml" value="0.2625" />
         <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_open2.xml" value="0.2625" />
-        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/activity_register_complete.xml" value="0.25" />
         <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/list.xml" value="0.33" />
         <entry key="..\:/Users/yerin/AndroidStudioProjects/hanium2/app/src/main/res/layout/log.xml" value="0.25" />
