@@ -37,19 +37,10 @@ class LoginActivity : AppCompatActivity() {
             mEmailView!!.error = "비밀번호를 입력해주세요."
             focusView = mEmailView
             cancel = true
-        } else if (!isPasswordValid(password)) {
-            mPasswordView!!.error = "6자 이상의 비밀번호를 입력해주세요."
-            focusView = mPasswordView
-            cancel = true
         }
-
         // 이메일의 유효성 검사 (생략?
         if (email.isEmpty()) {
             mEmailView!!.error = "이메일을 입력해주세요."
-            focusView = mEmailView
-            cancel = true
-        } else if (!isEmailValid(email)) {
-            mEmailView!!.error = "@를 포함한 유효한 이메일을 입력해주세요."
             focusView = mEmailView
             cancel = true
         }
@@ -70,7 +61,7 @@ class LoginActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<LoginResponse?>?, t: Throwable) {
-                Toast.makeText(this@LoginActivity, "로그인 에러 발생", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@LoginActivity, "흥", Toast.LENGTH_SHORT).show()
                 Log.e("로그인 에러 발생", t.message!!)
             }
         })

@@ -16,6 +16,7 @@
         android:required="false" />
 
     <application
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -29,11 +30,14 @@
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".loginData"
-            android:exported="false" />
-        <activity
             android:name=".HomeActivity"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".DialogSelectImgActivity"
             android:exported="false" />
@@ -52,11 +56,6 @@
         <activity
             android:name=".LogActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".ListActivity"
@@ -64,6 +63,8 @@
         <activity
             android:name=".RegisterCompleteActivity"
             android:exported="true" />
+
+
     </application>
 
 </manifest>

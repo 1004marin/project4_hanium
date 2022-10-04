@@ -29,7 +29,11 @@ class HomeActivity : AppCompatActivity() {
         findViewById<View>(R.id.button6).setOnClickListener {
             val intent = Intent(this@HomeActivity,LogActivity::class.java )
             startActivity(intent)
-
+        }
+        findViewById<View>(R.id.button8).setOnClickListener {
+            val intent = Intent(this@HomeActivity, LoginActivity::class.java)
+            //intent.putExtra("키", "메시지") 메시지를 키로 잠갔다.
+            startActivity(intent)
         }
     }
 }

@@ -71,7 +71,7 @@
         android:id="@+id/button8"
         android:layout_width="80dp"
         android:layout_height="32dp"
-        android:text="로그아웃"
+        android:text="로그인"
         android:textColor="#654b8d"
         android:textSize="10sp"
         app:backgroundTint="#f2f2f2"
