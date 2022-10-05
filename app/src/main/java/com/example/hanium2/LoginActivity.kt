@@ -63,6 +63,7 @@ class LoginActivity : AppCompatActivity() {
             override fun onFailure(call: Call<LoginResponse?>?, t: Throwable) {
                 Toast.makeText(this@LoginActivity, "흥", Toast.LENGTH_SHORT).show()
                 Log.e("로그인 에러 발생", t.message!!)
+                t.printStackTrace();
             }
         })
     }
