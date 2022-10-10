@@ -1,5 +1,6 @@
 package com.example.hanium2
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -57,8 +58,15 @@ class LoginActivity : AppCompatActivity() {
                 val result: LoginResponse? = response.body()
                 if (result != null) {
                     Toast.makeText(this@LoginActivity, result.getMessage(), Toast.LENGTH_SHORT).show()
+                    findViewById<View>(R.id.login_button).setOnClickListener {
+                        val intent = Intent(this@LoginActivity, HomeActivity::class.java)
+                        startActivity(intent)
+                    }
+
                 }
+
             }
+
 
             override fun onFailure(call: Call<LoginResponse?>?, t: Throwable) {
                 Toast.makeText(this@LoginActivity, "흥", Toast.LENGTH_SHORT).show()

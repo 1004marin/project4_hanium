@@ -5,8 +5,10 @@ import android.os.Bundle
 import android.Manifest
 import android.content.ContentValues
 import android.content.Context
+import android.content.Intent
 import android.net.Uri
 import android.provider.MediaStore
+import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
@@ -62,6 +64,10 @@ class RegisterActivity: AppCompatActivity() {
 
         binding.mainBtn.setOnClickListener {
             openDialog(this)
+        }
+        findViewById<View>(R.id.RegisterButton).setOnClickListener {
+            val intent = Intent(this@RegisterActivity,RegisterCompleteActivity::class.java )
+            startActivity(intent)
         }
     }
 

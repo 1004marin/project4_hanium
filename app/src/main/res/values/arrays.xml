@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="itemList">
+        <item>홍보팀</item>
+        <item>기획팀</item>
+        <item>영업팀</item>
+        <item>마케팅팀</item>
+
+
+    </string-array>
+</resources>

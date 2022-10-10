@@ -11,11 +11,13 @@
         android:id="@+id/view4"
         android:layout_width="wrap_content"
         android:layout_height="60dp"
+        android:layout_marginBottom="95dp"
         android:background="#f2f2f2"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
-    </View>
+        app:layout_constraintBottom_toTopOf="@+id/log"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"></View>
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,29 +34,12 @@
         app:layout_constraintVertical_bias="0.484"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/log"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="117dp"
-        android:layout_marginEnd="164dp"
-        android:layout_marginBottom="92dp"
-        android:text="직원 로그"
-        android:textColor="#4a4a4a"
-        android:textSize="21sp"
-        android:textStyle="normal"
-        app:layout_constraintBottom_toTopOf="@+id/imageView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view4"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="140dp"
-        android:layout_height="81dp"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
         android:src="@drawable/face"
         app:layout_constraintBottom_toTopOf="@+id/textView11"
         app:layout_constraintEnd_toStartOf="@+id/textView29"
@@ -66,61 +51,27 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="79dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="291dp"
-        android:layout_marginBottom="333dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="381dp"
         android:text="2022-07-08"
         android:textColor="#5b5b5b"
         android:textSize="8sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="직원 이름"
-        android:textColor="#5b5b5b"
-        android:textSize="8sp"
-        android:textStyle="normal"
-        app:layout_constraintBottom_toTopOf="@+id/log_emp_name_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/log"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView30"
-        android:layout_width="117dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginBottom="338dp"
-        android:background="#efefef"
-        android:gravity="center_vertical"
-        android:text="쿵야"
-        android:textColor="#5b5b5b"
-        android:textSize="11sp"
-        android:textStyle="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/log_emp_name"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/log_emp_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="189dp"
         android:text="직원 이름"
         android:textColor="#5b5b5b"
         android:textSize="8sp"
@@ -133,12 +84,32 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/textView30"
+        android:layout_width="117dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="399dp"
+        android:background="#efefef"
+        android:gravity="center_vertical"
+        android:text="쿵야"
+        android:textColor="#5b5b5b"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/log_emp_name"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
         android:id="@+id/log_emp_name_content"
         android:layout_width="117dp"
         android:layout_height="22dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="13dp"
         android:background="#efefef"
         android:gravity="center_vertical"
         android:text="쿵야"
@@ -147,8 +118,44 @@
         android:textStyle="normal"
         app:layout_constraintBottom_toTopOf="@+id/log_emp_name"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/textView29"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="169dp"
+        android:text="직원 이름"
+        android:textColor="#5b5b5b"
+        android:textSize="8sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/log_emp_name_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/log"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="70dp"
+        android:text="직원 로그"
+        android:textColor="#4a4a4a"
+        android:textSize="21sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
